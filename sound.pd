@@ -1,0 +1,14 @@
+#N canvas 5 86 450 300 12;
+#X obj 24 15 inlet;
+#X obj 24 257 outlet~;
+#X obj 149 20 r \$1-param1;
+#X obj 243 20 r \$1-param2;
+#X obj 342 20 r \$1-param3;
+#X obj 317 73 f \$4;
+#X obj 218 71 f \$3;
+#X obj 124 71 f \$2;
+#X obj 51 118 print button;
+#X connect 0 0 8 0;
+#X connect 2 0 7 1;
+#X connect 3 0 6 1;
+#X connect 4 0 5 1;
